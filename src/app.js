@@ -8,7 +8,7 @@ const subscribtionsRouter = require("./routes/subscribtions/subscribtions.router
 const app = express();
 app.use(
   cors({
-    origin: ["https://grad-project-beryl.vercel.app"],
+    origin: ["https://grad-project-beryl.vercel.app", "https://grad-project-beryl.vercel.app/profile"],
     credentials: true, //i
   })
 );
