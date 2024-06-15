@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const cookieParser = require("cookie-parser");
+
 //Routes
 const authRouter = require("./routes/auth/auth.router");
 const subscribtionsRouter = require("./routes/subscribtions/subscribtions.router");
@@ -13,7 +13,7 @@ app.use(
   })
 );
 //http://localhost:4000
-app.use(cookieParser());
+
 app.use(express.json());
 app.use(authRouter);
 
