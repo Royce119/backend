@@ -18,6 +18,7 @@ const UserSchema = new mongoose.Schema({
   },
   creditCard: {
     type: String,
+    required: false,
   },
 });
 module.exports = mongoose.model("User", UserSchema);
