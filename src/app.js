@@ -10,10 +10,9 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      "https://grad-project-beryl.vercel.app",
-      "https://grad-project-beryl.vercel.app/",
-      "https://grad-project-beryl.vercel.app/profile",
+      "https://bis-grad-project.vercel.app",
+      "https://bis-grad-project.vercel.app/",
+      "https://bis-grad-project.vercel.app/profile",
     ],
     credentials: true, //i
   })
